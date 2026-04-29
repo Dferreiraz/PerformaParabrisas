@@ -897,3 +897,29 @@ section { padding: 80px 0; }
   transition: opacity 0.55s ease, transform 0.55s ease;
 }
 .fade-in.visible { opacity: 1; transform: none; }
+
+ /* Extra styles for contact page */
+
+.page-hero-contact {
+      background: var(--white);
+      padding: 56px 0 32px;
+      border-bottom: 1px solid var(--light-gray);
+    }
+    .page-hero-contact span {
+      display: block;
+      width: 40px; height: 4px;
+      background: var(--blue-accent);
+      border-radius: 2px;
+      margin-bottom: 18px;
+    }
+    .page-hero-contact h1 {
+      font-size: clamp(2rem, 5vw, 3.2rem);
+      color: var(--navy);
+      font-weight: 900;
+      text-transform: uppercase;
+    }
+    .page-hero-contact p {
+      margin-top: 12px;
+      max-width: 480px;
+      color: var(--text-mid);
+    }

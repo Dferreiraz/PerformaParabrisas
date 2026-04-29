@@ -8,61 +8,28 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="stylesheet" href="../styles/styles.css" />
-  <style>
-    /* Extra styles for contact page */
-    .page-hero-contact {
-      background: var(--white);
-      padding: 56px 0 32px;
-      border-bottom: 1px solid var(--light-gray);
-    }
-    .page-hero-contact span {
-      display: block;
-      width: 40px; height: 4px;
-      background: var(--blue-accent);
-      border-radius: 2px;
-      margin-bottom: 18px;
-    }
-    .page-hero-contact h1 {
-      font-size: clamp(2rem, 5vw, 3.2rem);
-      color: var(--navy);
-      font-weight: 900;
-      text-transform: uppercase;
-    }
-    .page-hero-contact p {
-      margin-top: 12px;
-      max-width: 480px;
-      color: var(--text-mid);
-    }
-  </style>
+
 </head>
 <body>
 
 <!-- ====== NAVBAR ====== -->
 <header class="navbar">
-  <div class="container navbar-inner">
+  <div class="container navbar-inner mobile-nav">
     <a href="index.html" class="navbar-logo">Performa <span>Para-Brisas</span></a>
     <nav class="navbar-links">
-      <a href="index.html">Home</a>
-      <a href="services.html">Serviços</a>
-      <a href="about.html">Sobre</a>
-      <a href="contact.html" class="active">Contato</a>
+      <a href="index.html" class="active">Home</a>
+      <a href="./src/pages/services.html">Serviços</a>
+      <a href="./src/pages/about.html">Sobre</a>
+      <a href="./src/pages/contact.html">Contato</a>
     </nav>
     <div class="navbar-cta">
-      <a href="contact.html" class="btn btn-primary">Solicitar orçamento</a>
+      <a href="./src/pages/contact.html" class="btn btn-primary">Solicitar orçamento</a>
       <button class="menu-toggle" aria-label="Menu">
         <span></span><span></span><span></span>
       </button>
     </div>
   </div>
 </header>
-
-<nav class="mobile-nav">
-  <a href="index.html">Home</a>
-  <a href="services.html">Serviços</a>
-  <a href="about.html">Sobre</a>
-  <a href="contact.html">Contato</a>
-  <a href="contact.html" class="btn btn-primary">Solicitar orçamento</a>
-</nav>
 
 <!-- ====== PAGE HERO ====== -->
 <div class="page-hero-contact">
