@@ -3,259 +3,237 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Serviços | Performa Para-Brisas — Troca e Instalação Profissional</title>
-  <meta name="description" content="Conheça nossos serviços de troca de para-brisa, instalação profissional e atendimento para linha leve e pesada. Vidros OEM, garantia vitalícia e calibração ADAS." />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <title>Serviços | Performa Para-Brisas — Itapeva e Região</title>
+  <meta name="description" content="Conheça nossos serviços especializados: troca de para-brisa, instalação profissional, atendimento a frotas e linha pesada. Vidros OEM e garantia total." />
   <link rel="stylesheet" href="../styles/styles.css" />
 </head>
 <body>
 
-<!-- ====== NAVBAR ====== -->
-<header class="navbar">
-  <div class="container navbar-inner mobile-nav">
-    <a href="index.html" class="navbar-logo">Performa <span>Para-Brisas</span></a>
-    <nav class="navbar-links">
-      <a href="index.html" class="active">Home</a>
-      <a href="./src/pages/services.html">Serviços</a>
-      <a href="./src/pages/about.html">Sobre</a>
-      <a href="./src/pages/contact.html">Contato</a>
-    </nav>
-    <div class="navbar-cta">
-      <a href="./src/pages/contact.html" class="btn btn-primary">Solicitar orçamento</a>
-      <button class="menu-toggle" aria-label="Menu">
-        <span></span><span></span><span></span>
-      </button>
-    </div>
-  </div>
-</header>
+  <!-- ========================= NAVBAR ========================= -->
+  <nav class="navbar" role="navigation" aria-label="Navegação principal">
+    <div class="navbar-inner">
+      <a href="../../index.html" class="navbar-brand" aria-label="Performa Para-Brisas - Início">
+        Performa Para-Brisas
+        <span class="brand-dot" aria-hidden="true"></span>
+      </a>
 
-<!-- ====== PAGE HERO ====== -->
-<section class="page-hero">
-  <div class="container page-hero-content">
-    <h1>Nossos Serviços</h1>
-    <p>Excelência técnica e precisão em cada detalhe. Garantimos a segurança do seu veículo com materiais de primeira linha e especialistas certificados.</p>
-  </div>
-</section>
+      <ul class="navbar-nav" role="list">
+        <li><a href="../../index.html">Home</a></li>
+        <li><a href="./services.html" class="active">Serviços</a></li>
+        <li><a href="./about.html">Sobre</a></li>
+        <li><a href="./contact.html">Contato</a></li>
+      </ul>
 
-<!-- ====== SERVICE DETAILS ====== -->
-<section>
-  <div class="container">
-
-    <!-- Troca de Para-brisa -->
-    <div class="service-detail fade-in">
-      <div class="service-detail-text">
-        <span class="section-label">Segurança em primeiro lugar</span>
-        <h2>Troca de para-brisa</h2>
-        <p>Utilizamos vidros originais ou homologados pelas montadoras, garantindo que a estrutura do seu veículo e a visibilidade do condutor permaneçam impecáveis. Nosso processo segue rigorosos protocolos de segurança industrial.</p>
-        <div class="check-list">
-          <div class="check-item">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
-            Vidros de Qualidade OEM
-          </div>
-          <div class="check-item">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
-            Calibração de Sensores ADAS
-          </div>
-          <div class="check-item">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
-            Certificação de Segurança Veicular
-          </div>
-        </div>
-        <a href="contact.html" class="btn btn-primary btn-arrow">Solicitar orçamento</a>
-      </div>
-      <div class="service-detail-image">
-        <!-- Before/After comparison image -->
-        <div style="display:grid; grid-template-columns:1fr 1fr; gap:0; border-radius:16px; overflow:hidden; height:380px;">
-          <div style="position:relative;">
-            <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=500&q=80" alt="Para-brisa trincado — antes" style="width:100%; height:100%; object-fit:cover;" />
-            <span class="ba-tag antes">ANTES</span>
-          </div>
-          <div style="position:relative;">
-            <img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=500&q=80" alt="Para-brisa novo — depois" style="width:100%; height:100%; object-fit:cover;" />
-            <span class="ba-tag depois">DEPOIS</span>
-          </div>
-        </div>
+      <div class="navbar-cta">
+        <a href="./contact.html" class="btn btn-primary">Solicitar orçamento</a>
+        <button class="hamburger" id="hamburger" aria-label="Abrir menu" aria-expanded="false" aria-controls="mobileMenu">
+          <span></span><span></span><span></span>
+        </button>
       </div>
     </div>
-
-    <hr style="border:none; border-top:1px solid var(--light-gray);" />
-
-    <!-- Instalação Profissional -->
-    <div class="service-detail reverse fade-in" style="padding: 64px 0;">
-      <div class="service-detail-text">
-        <span class="section-label">Padrão de fábrica</span>
-        <h2>Instalação Profissional</h2>
-        <p>A vedação perfeita é o que separa uma instalação segura de uma perigosa. Nossos técnicos utilizam poliuretano de alta performance e ferramentas de extração que não danificam a pintura ou a lataria do seu veículo.</p>
-        <div class="check-grid">
-          <div class="check-item">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
-            Vedação Hermética
-          </div>
-          <div class="check-item">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
-            Sem Ruídos de Vento
-          </div>
-          <div class="check-item">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
-            Proteção Anti-Corrosiva
-          </div>
-          <div class="check-item">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
-            Tempo de Cura Rápido
-          </div>
-        </div>
-        <a href="contact.html" class="btn btn-primary btn-arrow">Solicitar orçamento</a>
-      </div>
-      <div class="service-detail-image">
-        <div style="display:grid; grid-template-columns:1fr 1fr; gap:0; border-radius:16px; overflow:hidden; height:380px;">
-          <div style="position:relative;">
-            <img src="https://images.unsplash.com/photo-1600266867726-0c5e7c5c1f2e?w=500&q=80" alt="Instalação comum" style="width:100%; height:100%; object-fit:cover;" />
-            <span class="ba-tag antes" style="background:#6b7280;">COMUM</span>
-          </div>
-          <div style="position:relative;">
-            <img src="https://images.unsplash.com/photo-1537151625747-768eb6cf92b2?w=500&q=80" alt="Instalação Performa" style="width:100%; height:100%; object-fit:cover;" />
-            <span class="ba-tag depois">PERFORMA</span>
-          </div>
-        </div>
-      </div>
+    <div class="mobile-menu" id="mobileMenu" role="list">
+      <a href="../../index.html" role="listitem">Home</a>
+      <a href="./services.html" class="active" role="listitem">Serviços</a>
+      <a href="./about.html" role="listitem">Sobre</a>
+      <a href="./contact.html" role="listitem">Contato</a>
+      <a href="./contact.html" class="btn btn-primary btn-full" style="margin-top:0.5rem;" role="listitem">Solicitar orçamento</a>
     </div>
+  </nav>
 
-    <hr style="border:none; border-top:1px solid var(--light-gray);" />
+  <main>
 
-    <!-- Linha Leve/Pesada -->
-    <div class="service-detail fade-in" style="padding: 64px 0;">
-      <div class="service-detail-text">
-        <span class="section-label">Frotas e veículos especiais</span>
-        <h2>Linha Leve e Pesada</h2>
-        <p>Nossa equipe está capacitada para atender desde veículos de passeio até frotas de caminhões, ônibus e veículos de grande porte. Disponibilizamos unidade móvel para atendimento in loco em sua empresa ou garagem.</p>
-        <div class="check-list">
-          <div class="check-item">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
-            Carros, SUVs e pickups
-          </div>
-          <div class="check-item">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
-            Caminhões e ônibus intermunicipais
-          </div>
-          <div class="check-item">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
-            Frotas corporativas com atendimento móvel
-          </div>
-        </div>
-        <a href="contact.html" class="btn btn-primary btn-arrow">Solicitar orçamento</a>
-      </div>
-      <div class="service-detail-image">
-        <img src="https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?w=700&q=80" alt="Técnico instalando para-brisa" style="width:100%; height:380px; object-fit:cover;" />
-      </div>
-    </div>
-
-  </div>
-</section>
-
-<!-- ====== WHY CHOOSE ====== -->
-<section style="background: var(--off-white);">
-  <div class="container">
-    <h2 style="text-align:center; margin-bottom:48px;">Por que escolher a Performa?</h2>
-    <div style="display:grid; grid-template-columns: 1fr 1fr; gap:24px; max-width:900px; margin:0 auto;">
-
-      <!-- Big stat -->
-      <div style="background:var(--blue-accent); border-radius:var(--radius-lg); padding:48px; display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; grid-row: 1 / 3;">
-        <div style="font-family:var(--font-display); font-size:5rem; font-weight:900; color:white; line-height:1;">10+</div>
-        <div style="font-size:0.75rem; font-weight:700; letter-spacing:0.15em; text-transform:uppercase; color:rgba(255,255,255,0.7); margin-top:8px;">Anos de Experiência</div>
-      </div>
-
-      <div style="display:grid; grid-template-columns:1fr 1fr; gap:24px; grid-row:1; grid-column:2;">
-        <!-- Mão de Obra -->
-        <div style="background:white; border:1px solid var(--light-gray); border-radius:var(--radius-lg); padding:28px; grid-column:1/-1;" class="fade-in">
-          <div class="why-icon" style="margin:0 0 14px;">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8" width="26" height="26"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>
-          </div>
-          <h3 style="font-family:var(--font-body); font-size:1rem; margin-bottom:8px;">Mão de Obra Especializada</h3>
-          <p style="font-size:0.85rem;">Nossa equipe passa por treinamentos semestrais sobre novas tecnologias de fixação e vidros inteligentes.</p>
+    <!-- ========================= PAGE HERO ========================= -->
+    <section class="page-hero" aria-labelledby="services-page-heading">
+      <div class="container">
+        <div class="page-hero-content">
+          <div class="section-label light">Nossos Serviços</div>
+          <h1 id="services-page-heading">Nossos Serviços</h1>
+          <p>Excelência técnica e precisão em cada detalhe. Garantimos a segurança do seu veículo com materiais de primeira linha e especialistas certificados.</p>
         </div>
       </div>
+    </section>
 
-      <div style="display:grid; grid-template-columns:1fr 1fr 1fr; gap:24px; grid-row:2; grid-column:2;">
-        <div style="background:white; border:1px solid var(--light-gray); border-radius:var(--radius-lg); padding:24px;" class="fade-in">
-          <div class="why-icon" style="width:40px; height:40px; margin:0 0 12px;">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8" width="20" height="20"><rect x="1" y="3" width="22" height="16" rx="2"/><path d="M1 10h22"/></svg>
+    <!-- ========================= SERVICE 1: TROCA DE PARA-BRISA ========================= -->
+    <section class="service-detail" aria-labelledby="troca-heading">
+      <div class="container">
+        <div class="service-detail-grid">
+          <div class="service-detail-content">
+            <div class="section-label">Segurança em Primeiro Lugar</div>
+            <h2 id="troca-heading">Troca de para-brisa</h2>
+            <p>Utilizamos vidros originais ou homologados pelas montadoras, garantindo que a estrutura do seu veículo e a visibilidade do condutor permaneçam impecáveis. Nosso processo segue rigorosos protocolos de segurança industrial.</p>
+
+            <ul class="checklist" aria-label="Diferenciais da troca de para-brisa">
+              <li>Vidros de Qualidade OEM</li>
+              <li>Calibração de Sensores ADAS</li>
+              <li>Certificação de Segurança Veicular</li>
+            </ul>
+
+            <a href="contact.html" class="btn btn-primary" style="margin-top:1.25rem;">
+              Solicitar orçamento
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" width="16" height="16" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
           </div>
-          <h3 style="font-family:var(--font-body); font-size:0.85rem; font-weight:700; margin-bottom:6px;">Atendimento Móvel</h3>
-          <p style="font-size:0.78rem; color:var(--text-light);">Vamos até você, em casa ou no escritório.</p>
-        </div>
-        <div style="background:white; border:1px solid var(--light-gray); border-radius:var(--radius-lg); padding:24px;" class="fade-in">
-          <div class="why-icon" style="width:40px; height:40px; margin:0 0 12px;">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8" width="20" height="20"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+
+          <div class="service-ba" aria-label="Comparativo antes e depois de troca de para-brisa">
+            <div class="before-after">
+              <img src="https://images.unsplash.com/photo-1620905967130-ce9c27c35f68?w=600&q=80" alt="Para-brisa trincado antes do reparo" loading="lazy" />
+              <img src="https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=600&q=80" alt="Para-brisa novo depois do reparo" loading="lazy" />
+              <div class="label label-before" aria-hidden="true">Antes</div>
+              <div class="label label-after" aria-hidden="true">Depois</div>
+              <div class="divider" aria-hidden="true"></div>
+            </div>
           </div>
-          <h3 style="font-family:var(--font-body); font-size:0.85rem; font-weight:700; margin-bottom:6px;">Garantia Vitalícia</h3>
-          <p style="font-size:0.78rem; color:var(--text-light);">Garantia permanente contra infiltrações.</p>
-        </div>
-        <div style="background:white; border:1px solid var(--light-gray); border-radius:var(--radius-lg); padding:24px;" class="fade-in">
-          <div class="why-icon" style="width:40px; height:40px; margin:0 0 12px;">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8" width="20" height="20"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-          </div>
-          <h3 style="font-family:var(--font-body); font-size:0.85rem; font-weight:700; margin-bottom:6px;">Agilidade Total</h3>
-          <p style="font-size:0.78rem; color:var(--text-light);">Troca realizada em até 2 horas.</p>
         </div>
       </div>
+    </section>
 
-    </div>
-  </div>
-</section>
+    <!-- ========================= SERVICE 2: INSTALAÇÃO PROFISSIONAL ========================= -->
+    <section class="service-detail" aria-labelledby="instalacao-heading" style="background:var(--color-gray-100);">
+      <div class="container">
+        <div class="service-detail-grid reverse">
+          <div class="service-detail-content">
+            <div class="section-label">Padrão de Fábrica</div>
+            <h2 id="instalacao-heading">Instalação Profissional</h2>
+            <p>A vedação perfeita é o que separa uma instalação segura de uma perigosa. Nossos técnicos utilizam poliuretano de alta performance e ferramentas de extração que não danificam a pintura ou a lataria do seu veículo.</p>
 
-<!-- ====== FOOTER ====== -->
-<footer class="footer">
-  <div class="container">
-    <div class="footer-grid">
-      <div class="footer-brand">
-        <a href="index.html" class="navbar-logo">Performa <span>Para-Brisas</span></a>
-        <p>Especialistas em vidros automotivos com foco em segurança e acabamento premium. Sua visão, nossa responsabilidade.</p>
-        <div class="footer-social">
-          <a href="#" aria-label="Instagram">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
-          </a>
-          <a href="#" aria-label="Facebook">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            <ul class="checklist" aria-label="Características da instalação profissional" style="display:grid;grid-template-columns:1fr 1fr;gap:0.5rem 1rem;">
+              <li>Vedação Hermética</li>
+              <li>Sem Ruídos de Vento</li>
+              <li>Proteção Anti-Corrosiva</li>
+              <li>Tempo de Cura Rápido</li>
+            </ul>
+
+            <a href="contact.html" class="btn btn-primary" style="margin-top:1.25rem;">
+              Solicitar orçamento
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" width="16" height="16" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </div>
+
+          <div class="service-ba" aria-label="Comparativo instalação comum vs Performa">
+            <div class="before-after">
+              <img src="https://images.unsplash.com/photo-1558618047-3c7ea41a4e0f?w=600&q=80" alt="Instalação comum com vedação inadequada" loading="lazy" />
+              <img src="https://images.unsplash.com/photo-1632823469850-2f77dd9c7f93?w=600&q=80" alt="Instalação profissional Performa" loading="lazy" />
+              <div class="label label-before" style="background:#6b7280;" aria-hidden="true">Comum</div>
+              <div class="label label-after" aria-hidden="true">Performa</div>
+              <div class="divider" aria-hidden="true"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================= WHY PERFORMA ========================= -->
+    <section class="why-performa" aria-labelledby="why-performa-heading">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-label" style="justify-content:center;">Nossos diferenciais</div>
+          <h2 id="why-performa-heading">Por que escolher a Performa?</h2>
+        </div>
+
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;">
+          <div class="card" style="display:flex;flex-direction:column;gap:0.75rem;">
+            <div class="card-icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" width="24" height="24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            </div>
+            <h4>Mão de Obra Especializada</h4>
+            <p>Nossa equipe passa por treinamentos semestrais sobre novas tecnologias de fixação e vidros inteligentes. Especialistas em todas as marcas e modelos.</p>
+          </div>
+
+          <div class="why-performa-stat" aria-label="Mais de 10 anos de experiência">
+            <div class="stat-number">10+</div>
+            <div class="stat-label">Anos de Experiência</div>
+          </div>
+
+          <div class="card">
+            <div class="card-icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" width="24" height="24"><rect x="1" y="3" width="15" height="13" rx="2"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+            </div>
+            <h4>Atendimento Móvel</h4>
+            <p>Vamos até você, seja em casa ou no escritório, com nossa oficina móvel equipada.</p>
+          </div>
+
+          <div class="card">
+            <div class="card-icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" width="24" height="24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <h4>Garantia Vitalícia</h4>
+            <p>Oferecemos garantia permanente contra infiltrações e defeitos de vedação.</p>
+          </div>
+
+          <div class="card" style="grid-column: 1 / -1;">
+            <div class="card-icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" width="24" height="24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <h4>Agilidade Total</h4>
+            <p>Troca realizada em até 2 horas com liberação imediata para circulação segura.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================= CTA ========================= -->
+    <section class="cta-section" aria-labelledby="cta-services-heading">
+      <div class="container">
+        <div class="cta-inner">
+          <div>
+            <h2 id="cta-services-heading">Pronto para recuperar a visão perfeita?</h2>
+            <p>Solicite um orçamento sem compromisso agora mesmo.</p>
+          </div>
+          <a href="https://wa.me/5515999990000" target="_blank" rel="noopener noreferrer" class="btn btn-accent btn-lg">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="18" height="18" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg>
+            Falar no WhatsApp
           </a>
         </div>
       </div>
-      <div class="footer-col">
-        <h4>Links Rápidos</h4>
-        <ul>
-          <li><a href="services.html">Serviços</a></li>
-          <li><a href="about.html">Sobre Nós</a></li>
-          <li><a href="contact.html">Contato</a></li>
-          <li><a href="#">Privacidade</a></li>
-        </ul>
+    </section>
+
+  </main>
+
+  <!-- ========================= FOOTER ========================= -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand">Performa Para-Brisas</div>
+          <p class="footer-desc">Especialistas em vidros automotivos com foco em segurança e acabamento premium. Sua visão, nossa responsabilidade.</p>
+        </div>
+        <nav aria-label="Links rápidos no rodapé">
+          <h5>Links Rápidos</h5>
+          <ul>
+            <li><a href="./services.html">Serviços</a></li>
+            <li><a href="./about.html">Sobre Nós</a></li>
+            <li><a href="./contact.html">Contato</a></li>
+            <li><a href="#">Privacidade</a></li>
+          </ul>
+        </nav>
+        <div>
+          <h5>Atendimento</h5>
+          <p class="footer-contact-item">Segunda a Sexta: 08:00 – 18:00</p>
+          <p class="footer-contact-item">Sábados: 08:00 – 12:00</p>
+          <p class="footer-contact-item">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            Atendimento Regional Integrado
+          </p>
+        </div>
       </div>
-      <div class="footer-col">
-        <h4>Atendimento</h4>
-        <div class="footer-contact-item">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-          Segunda a Sexta: 08:00 – 18:00
-        </div>
-        <div class="footer-contact-item">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-          Sábados: 08:00 – 12:00
-        </div>
-        <div class="footer-contact-item">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-          Atendimento Regional Integrado
+      <div class="footer-bottom">
+        <p>© 2024 Performa Para-Brisas. Especialistas em reparo e troca de vidros automotivos.</p>
+        <div class="footer-bottom-links">
+          <a href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="14" height="14" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+          </a>
+          <a href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="14" height="14" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          </a>
         </div>
       </div>
     </div>
-    <div class="footer-bottom">
-      <p>© 2024 Performa Para-Brisas. Especialistas em reparo e troca de vidros automotivos.</p>
-    </div>
-  </div>
-</footer>
+  </footer>
 
-<!-- WhatsApp Float -->
-<a href="https://wa.me/5515999990000" class="whatsapp-float" target="_blank" aria-label="Falar no WhatsApp">
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.125.557 4.126 1.534 5.858L.057 23.854a.5.5 0 0 0 .609.609l6.098-1.473A11.95 11.95 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.969 0-3.81-.543-5.385-1.485l-.385-.23-3.994.964.983-3.9-.253-.404A9.944 9.944 0 0 1 2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
-</a>
+  <a href="https://wa.me/5515999990000" target="_blank" rel="noopener noreferrer" class="whatsapp-float" aria-label="Chamar no WhatsApp">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg>
+  </a>
 
-<script src="src/scripts/main.js"></script>
+  <script src="src/scripts/main.js"></script>
 </body>
 </html>
